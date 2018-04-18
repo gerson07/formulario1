@@ -1,0 +1,79 @@
+body {
+	background:#6C6C6C;
+	font-family: sans-serif;
+}
+
+form
+{
+	top:100px;
+	position: relative;
+	left: 500px;
+}
+form label 
+{
+	display: block;
+}
+form input[type=text]
+{
+	padding: 4px 4px;
+	border: 1px solid #333;
+}
+form input:hover
+{
+	box-shadow: 0 0 5px 1px #7ABCE2;
+}
+form input:focus
+{
+	box-shadow: 0 0 5px 2px #7ABCE2;
+	border: 2px solid #7ABCE2;
+}
+form textarea
+{
+	display: block;
+	border: 1px solid #333;
+
+}
+form textarea:hover
+{
+	box-shadow: 0 0 5px 1px #7ABCE2;
+}
+form textarea:facus
+{
+
+	box-shadow: 0 0 5px 2px #7ABCE2;
+	border: 2px solid #7ABCE2;
+}
+form input[type="email"], select, textarea
+{
+	width: 362px;
+	padding: 4px 4px;
+	border: 1px solid #333;
+	 -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+form select 
+{
+	display: block;
+	width: 362px;
+}
+form select:hover
+{
+	box-shadow: 0 0 5px 1px #7ABCE2;
+}
+form select:facus
+{
+	box-shadow: 0 0 5px 2px #7ABCE2;
+	border: 2px solid #7ABCE2;
+}
+form button 
+{ 
+	margin-top: 10px;
+	border: 1px solid #333;
+	display: block;
+	padding: 5px 10px;
+}
+form button:hover
+{
+	box-shadow: 0 0 5px 1px #7ABCE2;
+	border: 2px solid #7ABCE2;
+}
